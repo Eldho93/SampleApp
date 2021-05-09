@@ -54,7 +54,6 @@
             android:id="@+id/recycler_view"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:descendantFocusability=""
             android:layout_margin="10dp"
             tools:listitem="@layout/item_recycler"
             app:layout_constraintTop_toBottomOf="@+id/search_view"

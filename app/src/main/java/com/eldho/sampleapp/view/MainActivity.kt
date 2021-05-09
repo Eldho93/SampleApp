@@ -93,11 +93,11 @@ class MainActivity : AppCompatActivity() {
 
     private fun initUI() {
         listViews = ArrayList()
-        listViews.add(ViewItem(1, R.drawable.profile))
-        listViews.add(ViewItem(2, R.drawable.profile))
-        listViews.add(ViewItem(3, R.drawable.profile))
-        listViews.add(ViewItem(4, R.drawable.profile))
-        listViews.add(ViewItem(5, R.drawable.profile))
+        listViews.add(ViewItem(1, R.drawable.sample_img))
+        listViews.add(ViewItem(2, R.drawable.sample_img))
+        listViews.add(ViewItem(3, R.drawable.sample_img))
+        listViews.add(ViewItem(4, R.drawable.sample_img))
+        listViews.add(ViewItem(5, R.drawable.sample_img))
 
         adapter = ViewPagerAdapter(applicationContext, listViews)
         view_pager.adapter = adapter
